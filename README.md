@@ -4,13 +4,13 @@ This repository contains a complete microservices-based system built with **Spri
 # Project Structure
 ├── EventService/ # Handles events
 
-├── Gateway/ # API Gateway with routing
+├── UserService/ # Manages users
 
 ├── RatingService/ # Handles user ratings for events
 
 ├── ServiceRegistry/ # Eureka service discovery server
 
-├── UserService/ # Manages users
+├── Gateway/ # API Gateway with routing
 
 ├── configServer/ # Centralized configuration server
 
