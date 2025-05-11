@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: CONFIGSERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Maniteja03/microservices-config
+          clone-on-start: true
+          default-label: main 
+
+server:
+  port: 9094
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9093/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+  instance:
+    prefer-ip-address: true
