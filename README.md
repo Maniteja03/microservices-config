@@ -40,13 +40,18 @@ This repository contains a complete microservices-based system built with **Spri
 
 **Step 2:** Start MySQL
   >Add your MySQL credentials in the application.properties file
+
     - spring.datasource.username=your_mysql_username
+    
     - spring.datasource.password=your_mysql_password
 
 **Step 3:** Start the services in this order (via IDE or terminal):
   -configServer
+  
   -ServiceRegistry
+  
   -Gateway
+  
   -UserService, EventService, RatingService
  
 
