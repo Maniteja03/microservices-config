@@ -46,6 +46,7 @@ This repository contains a complete microservices-based system built with **Spri
     - spring.datasource.password=your_mysql_password
 
 **Step 3:** Start the services in this order (via IDE or terminal):
+
   -configServer
   
   -ServiceRegistry
