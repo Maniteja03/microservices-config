@@ -3,13 +3,21 @@ This repository contains a complete microservices-based system built with **Spri
 
 # Project Structure
 ├── EventService/ # Handles events
+
 ├── Gateway/ # API Gateway with routing
+
 ├── RatingService/ # Handles user ratings for events
+
 ├── ServiceRegistry/ # Eureka service discovery server
+
 ├── UserService/ # Manages users
+
 ├── configServer/ # Centralized configuration server
+
 ├── application.properties # Base Spring Boot configuration
+
 ├── application-dev.properties
+
 ├── application-prod.properties
 
 # Tech Stack
@@ -29,6 +37,7 @@ This repository contains a complete microservices-based system built with **Spri
 
 **Step 1:** Clone the repository  
   > git clone https://github.com/Maniteja03/microservices-config.git
+
 **Step 2:** Start MySQL
   >Add your MySQL credentials in the application.properties file
     - spring.datasource.username=your_mysql_username
